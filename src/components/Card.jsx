@@ -2,14 +2,6 @@ import React from 'react';
 import HFC from '../assets/HFC.mp4'
 import HCC from '../assets/HCC.mp4'
 import { Link } from 'react-router-dom';
-import { createBrowserHistory } from "history";
-
-export const history = createBrowserHistory();
-
-history.listen((location, action) => {
-  window.scrollTo(0, 0)
-})
-
 
 
 
