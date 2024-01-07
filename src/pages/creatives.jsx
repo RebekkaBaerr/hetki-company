@@ -7,7 +7,7 @@ import ari from '../assets/ari.png'
 import ilari from '../assets/Ilari.png'
 import Paricles from '../components/Paricles';
 
-function creatives() {
+function Creatives() {
   return (
     <div className='text-white w-full  mx-auto text-center flex flex-col flex-nowrap justify-center mb-0'>
       <Navbar />
@@ -72,4 +72,4 @@ function creatives() {
   )
 }
 
-export default creatives
+export default Creatives;

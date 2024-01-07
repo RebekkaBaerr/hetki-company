@@ -38,4 +38,4 @@ function Paricles() {
   )
 }
 
-export default Paricles
+export default Paricles;

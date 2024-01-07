@@ -38,4 +38,4 @@ function Particless() {
   )
 }
 
-export default Particless
+export default Particless;

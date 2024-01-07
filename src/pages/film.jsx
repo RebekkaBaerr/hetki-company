@@ -37,4 +37,4 @@ function Film() {
   )
 }
 
-export default Film
+export default Film;

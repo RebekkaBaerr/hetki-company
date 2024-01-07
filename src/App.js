@@ -1,5 +1,4 @@
 import React from "react";
-import { createBrowserHistory } from "history";
 import {
   BrowserRouter as Router,
   Routes,
@@ -12,12 +11,6 @@ import Portfolio from "./pages/portfolio";
 import Creatives from "./pages/creatives";
 import Contact from "./pages/contact";
 
-
-export const history = createBrowserHistory();
-
-history.listen((location, action) => {
-  window.scrollTo(0, 0)
-})
 
 function App() {
   return (
