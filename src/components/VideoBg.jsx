@@ -1,5 +1,4 @@
 import React from 'react';
-import third from '../assets/third.mov';
 import fourth from '../assets/fourth.mov'
 
 function VideoBg() {
